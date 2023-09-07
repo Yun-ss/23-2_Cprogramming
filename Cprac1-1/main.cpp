@@ -4,7 +4,7 @@ int main() {
 	int n;
 	int i, j, k;
 	scanf_s("%d", &n);
-	printf("%dÃş ÇÇ¶ó¹Ìµå\n",n);
+	printf("%dì¸µ í”¼ë¼ë¯¸ë“œ\n",n);
 	for (i = 1; i <= n; i++) {
 		for (j = 1; j <= n-i; j++) {
 			printf(" ");
