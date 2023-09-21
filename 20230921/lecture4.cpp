@@ -20,7 +20,7 @@ int main(void) {
 		phi = 4*(float)inCicle / (float)count;	
 		if (percent < (int)(i / 10000000)) {
 			percent = (int)(i / 10000000);
-			printf("%d%%진행중..	원주율 : %f", percent,phi);
+			printf("%d%%진행중..	원주율 : %f	", percent,phi);
 			for (int j = 0; j < 20; j++) {
 				if (j < (percent / 5)) {
 					printf("■");
