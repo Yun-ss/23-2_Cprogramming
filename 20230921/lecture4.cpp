@@ -1,4 +1,4 @@
-#include <stdio.h>
+ï»¿#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
 #include <time.h>
@@ -20,13 +20,13 @@ int main(void) {
 		phi = 4*(float)inCicle / (float)count;	
 		if (percent < (int)(i / 10000000)) {
 			percent = (int)(i / 10000000);
-			printf("%d%%ÁøÇàÁß..	¿øÁÖÀ² : %f", percent,phi);
+			printf("%d%%ì§„í–‰ì¤‘..	ì›ì£¼ìœ¨ : %f", percent,phi);
 			for (int j = 0; j < 20; j++) {
 				if (j < (percent / 5)) {
-					printf("¡á");
+					printf("â– ");
 				}
 				else {
-					printf("¡à");
+					printf("â–¡");
 				}
 			}
 			printf("\n");
