@@ -35,5 +35,5 @@ int main(void) {
 			printf("\n");
 		}
 	}
-  printf("원주율 : %f",phi);
+	printf("원주율 : %f",phi);
 }
