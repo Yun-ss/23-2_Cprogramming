@@ -15,6 +15,9 @@ int main(void) {
 		y = (double)rand() / (double)RAND_MAX;
 		count++;
 		if ((pow(x, 2) + pow(y, 2)) <= 1) {
+			/*
+      			x^2+y^2 <= r^2 -> x^2+y^2 <= 1 일때 (x,y)는 원 위에 있음
+      			*/
 			inCicle++;
 		}
 		phi = 4*(float)inCicle / (float)count;	
